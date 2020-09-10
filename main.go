@@ -160,6 +160,10 @@ func GetCookie(email, password, domain string) string {
 
 }
 
+func main() {
+	fmt.Println("OK")
+}
+
 func getEmailInfo(email string) {
 
 	emailEncoded := url.QueryEscape(email)
